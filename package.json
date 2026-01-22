@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/server.js",
-  "scripts": {
+ "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "prisma generate && tsc",
     "start": "node dist/src/server.js",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
-  },
+    "prisma:migrate": "prisma migrate deploy"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
