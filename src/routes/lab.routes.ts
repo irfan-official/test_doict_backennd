@@ -4,7 +4,7 @@ import {
   // getLabs,
   // getFilterOptions,
   // getLabById,
-} from "../controllers/lab.controller";
+} from "../controllers/lab.controller.js";
 
 // import authorizeMiddleware from "../middlewares/role.m";
 // import authenticateMiddleware from "../middlewares/auth.m";
